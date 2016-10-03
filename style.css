@@ -1,4 +1,52 @@
 
 body {
-  background:blue;
+  background-image: url("Waterfall-SD.jpg");
+}
+
+#link-visit a:visited {
+  color:green;
+}
+
+.contact-info {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+
+.other-interests {
+  background-color: grey;
+  margin-top: 25px;
+  padding: 25px 10px 25px 10px;
+  border-radius: 25px;
+}
+
+section.contact-info p {
+  display: inline;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: 2px solid black;
+}
+
+section.contact-info p:last-of-type {
+  border-right: none;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: .8em;
+  }
+}
+
+.contact-info:hover {
+  color: #ff0000;
+}
+
+.font-shift {
+  font-style: italic;
+  font-family: sans-serif;
 }
